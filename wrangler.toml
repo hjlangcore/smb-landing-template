@@ -1,0 +1,7 @@
+# Static Cloudflare Pages project. No build step.
+# Dashboard: Framework preset "None", build command empty,
+# build output directory "public".
+# CLI: npx wrangler pages deploy
+name = "bright-harbor-studio"
+compatibility_date = "2026-11-02"
+pages_build_output_dir = "public"

@@ -1,0 +1,19 @@
+# OS and editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Logs, secrets, local env
+*.log
+.env
+.env.*
+.dev.vars
+
+# Wrangler local state
+.wrangler/
+
+# Dependencies and build output (this template has neither)
+node_modules/
+dist/

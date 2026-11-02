@@ -40,7 +40,7 @@ The landing page and the not-found page load `public/js/support-widget.js` with 
 1. Start the preview under [Local preview](#local-preview).
 2. Open the site and choose **Ask a question** (it is also marked **Demo**).
 3. Ask about hours, services, or contact. The chips send those questions. Answers still appear if the network is blocked.
-4. Close the panel with **Close**, the **Ask a question** button, or Escape. Focus returns to the button.
+4. Close the panel with **Close** or Escape. The **Ask a question** button is hidden while the panel is open, and focus returns to it when the panel closes.
 
 The panel says **Concept demo** and states that the replies are scripted. The same button is on the not-found page.
 

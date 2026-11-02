@@ -90,14 +90,14 @@ body:has(#bhs-support) {
 
 .bhs-panel {
   right: calc(1rem + env(safe-area-inset-right));
-  bottom: calc(5.25rem + env(safe-area-inset-bottom));
+  bottom: calc(1rem + env(safe-area-inset-bottom));
   display: flex;
   flex-direction: column;
   width: min(23rem, calc(100vw - 2rem));
-  min-height: min(20rem, calc(100vh - 11rem));
-  min-height: min(20rem, calc(100dvh - 11rem));
-  max-height: calc(100vh - 10.5rem - env(safe-area-inset-bottom));
-  max-height: calc(100dvh - 10.5rem - env(safe-area-inset-bottom));
+  min-height: min(20rem, calc(100vh - 7rem));
+  min-height: min(20rem, calc(100dvh - 7rem));
+  max-height: calc(100vh - 6.25rem - env(safe-area-inset-bottom));
+  max-height: calc(100dvh - 6.25rem - env(safe-area-inset-bottom));
   overflow: hidden;
   border: 1px solid rgba(28, 25, 21, 0.14);
   border-radius: 20px;

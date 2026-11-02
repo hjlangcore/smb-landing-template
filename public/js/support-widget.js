@@ -597,10 +597,13 @@
         if (config.welcome) addMessage("Demo script", String(config.welcome), "bot");
       }
       panel.focus();
+      /* Hide the launcher so it cannot cover the composer on a short screen. */
+      launcher.hidden = true;
     }
 
     function closePanel() {
       panel.hidden = true;
+      launcher.hidden = false;
       launcher.setAttribute("aria-expanded", "false");
       launcher.focus();
     }

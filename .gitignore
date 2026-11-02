@@ -10,6 +10,7 @@ Thumbs.db
 .env
 .env.*
 .dev.vars
+public/js/*.local.js
 
 # Wrangler local state
 .wrangler/
